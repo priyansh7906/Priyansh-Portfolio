@@ -36,9 +36,12 @@
     "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://priyansh7906.github.io/Priyansh-Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -62,6 +65,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "gh-pages": "^5.0.0"
   }
 }
